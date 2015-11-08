@@ -1,0 +1,4 @@
+Title: Freezer Magazine
+----
+Description: The freezing projects from Freezer Magazine
+----

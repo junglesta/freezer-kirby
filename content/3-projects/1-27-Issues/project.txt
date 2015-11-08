@@ -1,0 +1,39 @@
+Title: Freezer Issues
+
+----
+
+Icon: camera
+
+----
+Text: 
+
+#27 
+| no. | year  | season            | shout               |
+| :-- | :---- | :---------------- | -------------------:|
+| 01 | 1994 | dicembre | Freezer numero zero |
+| 02 | 1995 | dicembre | Freezer magazine |
+| 03 | 1995 | dicembre | Biomag |
+| 04 | 1995 | dicembre | Whattamag |
+| 05 | 1995 | autumn | Snow freestyle mag |
+| 06 | 1995 | tardo autunno | Lights your riding |
+| 07 | 1996 | prima uscita | Los bovaros magazine |
+| 08 | 1996 | spring | Controversial mag with english text |
+| 09 | 1996 | estate | Freezer... mmm |
+| 10 | 1996 | back to school | The amazing mag with english text |
+| 11 | 1996 | autunno | Freezer fa scuola, lo snowmag più copiato |
+| 12 | 1996 | natale | Freezer ti porta il nuovo.. Sei pronto? |
+| 13 | 1997 | inverno | E' vero che gli sciatori volano più alto degli snowboarders / Too punk for you! 
+| 14 | 1997 | estate | Fatto a mano in italia |
+| 15 | 1997 | inizio stagione | Giving' all the idiots a brand new religion |
+| 16 | 1997 | prime nevi | Il "catalogo" più meglio che ciè che poi è anche aggratis |
+| 17 | 1998 | primavera | Board Maniacs Icons |
+| 18 | 1998 | back to school | Photospecial |
+| 19 | 1998 | winter | Per il tuo diritto a non essere d'accordo! |
+| 20 | 1999 | spring | Kill your playstation |
+| 21 | 1999 | summer | Photospecial |
+| 22 | 1999 | autumn | Basta saltare adesso, tutti di nuovo a scuola! |
+| 23 | 1999 | winter | Never ending global tour |
+| 24 | 2000 | spring | Una dinastia di massmediocrati messa in crisi dalla nuova generazione|
+| 25 | 2000 | summer | Photospecial: La fine delle barriere di parole qui si parla per immagini |
+| 26 | 2000 | autumn | Diffondiamo nuovi valori e punti di vista sulla realtà che ci circonda |
+| 27 | 2000 | winter | La testimonianza del miracolo |

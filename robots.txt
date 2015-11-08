@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /kirby/
+Disallow: /panel/
+Disallow: /site/
+
+Disallow: *.zip
+Disallow: *.psd
+Disallow: *.tif
+Disallow: *.psd
+
+
+User-agent: Semalt
+Disallow: /
+

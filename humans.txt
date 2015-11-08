@@ -1,0 +1,52 @@
+/* TEAM */
+Site: freezer.junglestar.org
+developer: rokma
+Twitter: @rokmatwit
+Location: Located where design meet development, now here.
+
+/* THANKS */
+Name: Open Software community, device-agnostic approach to designing for the web, stackoverflow, csstricks, codepen, github, qr codes, google, infinite games, Horus, LaoTsu, 
+
+/* SITE */
+Last update: 2015/02/22 
+Standards: HTML5, CSS3, php, javascript, Skepticism, Common Sense.
+Components: kirby cms
+Services: google fonts
+Software: a panda brain
+
+
+
+                                                ____
+                                             ,ad@@@@b,
+                                   ____     d8@@@@@@@8b
+                ____         _,,af""""""YadYMM@@@@@@@@8)
+              ,d@@@@ba,  .df""               'Y8@@@@MMP
+             d@@@@@@@WPdP'                       Y8M8"
+            IW@@@@@@@MP                 ____      'Y,
+            (8@@@@@@P'       ___      ad@@@@ba,     'b
+             Y8MM@MP'     .ad@@@b.   I@@@PY0@@@b,     Y
+              '"YYM"     d@@@@@@@b   '@@I  _ Y@@@b     b
+                 Y'     I@@Y' 'Y@8    'Yb I@8.I@@8     'b
+                 I      d@I ,8b'I8b,-'""'Y8@@@@@@Y     .I
+                 I      8@I,I@@@P'   __     'Y@@I, '  . P
+                 (,     Y@@b8@Y   ,ad@@8b.    .8I,_,;.,d'
+                  Y      Y8@@P'   I@@@8Y'    ,d88YbafdY8b,
+                  'b       'YI       Y8b,,ad8P'''b,   '"Y8ba,_
+                   '8,'  . ' Y,.   ,a@@@@@Nda,,a888b,    YadP"''
+                     "Yaa,;.'_Y,dP"d8@@Y 'b,  'Y'  '"b,_  b
+                       "88NP"'  ,d8MMY8a, dban, b      "b, Y
+                        ,P   ,aP"'    '"baY    "Ya.      "Ya,
+                      d"   ,a"            "
+                     I8b.,d"
+                     'Yad"
+
+
+
+
+
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+
+
+

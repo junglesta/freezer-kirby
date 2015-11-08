@@ -1,0 +1,961 @@
+/*
+Freezer on Kirbies
+Author:; rokma
+version: 0.9.17
+
+BACKEND CODE: Bastian Allgeier / Sascha Lack
+URL:    http://getkirby.com
+GUI DESIGN: Rokma <http://rokma.com>
+Email:  me@rokma.com
+*/
+
+
+/*
+cdn served fonts:
+http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,300italic
+*/
+
+/* Reset
+-------------------------------------------------- */
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;       
+  box-sizing: border-box;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, nav, section, summary {
+  display: block;
+}
+
+
+/* Pix
+-------------------------------------------------- */
+img {
+   display: block; 
+   max-width: 100%; 
+}
+
+
+/* Links
+-------------------------------------------------- */
+a {
+  color: #000;
+  text-decoration: none;
+  padding:0 1.4rem;  
+}
+*:hover {text-decoration: none!important; }
+
+.topnav{ width: 150px ;
+  float: right;
+}
+.gohome{
+  display: block;
+  padding-left:0;
+  padding-right:0; 
+}
+
+.boh{
+  display: block;
+  position: relative;
+  z-index: -1;
+}
+
+.illu{
+  position: relative;
+  display: block;
+  max-width: 30rem;
+}
+.illu img, .illu object, .illu svg{
+  float: left;
+  max-height: 460px; 
+}
+
+/* Clearfix
+-------------------------------------------------- */
+
+.cf:after {
+  content: ""; 
+  display: table;
+  clear: both;
+}
+
+/* Site
+-------------------------------------------------- */
+html {
+  height: 101%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+body {
+  padding: 1.5rem;
+  padding-bottom: 0;
+  margin: 0 auto;
+  font-size: 1.25rem;
+  line-height: 1.25;
+  background: #ddd;
+  color: #222;
+}
+
+li em {
+  color:gray!important;
+  font-style: italic;
+}
+
+
+
+
+
+
+
+
+/* Navigation
+-------------------------------------------------- */
+.menu a {
+  position: relative;
+  background-color:transparent;
+  display: block;
+  text-align: right;
+  margin-left: calc(100% - 140px);
+  line-height: 2rem;
+  color: #222;
+}
+
+.menu a:hover {
+  position: relative;
+  background-color:transparent;
+  color: black;
+  border: 2px solid black!important;
+  right: 0;
+}
+.topnav .menu {
+  float: right;
+  margin-top:-.8rem;
+}
+.menu li {
+  list-style: none;
+}
+.menu > li {
+  position: relative;
+  z-index:100;
+  margin: .8rem 0;
+}
+.menu > li > a {
+ text-align:center;
+  font-weight: 400;
+}
+
+
+
+.submenu {
+  position: absolute; 
+  z-index: 100;
+}
+
+.hidden {
+  display: none;
+}
+
+.submenu .brick-front {
+  padding: .5em 1.5em;
+  font-size: 1em;
+  font-weight: 400;
+  color: black;
+  white-space: nowrap;
+  text-align: right;
+  border: 2px solid black;
+}
+
+
+/*bricks*/
+
+.brick { position: relative; }
+
+.brick-front {
+  text-transform: uppercase;  
+  text-align: center;
+  display: inline-block;
+  padding: 10px;
+  border: 2px solid black;
+  background-color: #ddd; 
+  position: relative;
+}
+
+.brick-front:hover {
+  background-color: #d4d4d4!important;
+}
+
+.logo .brick-front{
+  padding: 0px!important;
+  margin: 0;
+  border-radius: 50%!important;
+}
+.submenu .brick-front{float: left;}
+
+
+
+
+
+/* Header
+-------------------------------------------------- */
+.header {
+  position: relative;
+  min-height: 5rem;
+}
+.logo { 
+  padding: 0;
+  position: relative;
+  z-index: 100;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+table { width: 100%; }
+
+
+/* Headings
+-------------------------------------------------- */
+h1 {
+  font-size: 2.3rem;
+  line-height: 1.25;
+  font-weight: 300;
+  margin-bottom: 1.35rem;
+}
+h2 {
+  font-size: 1.9rem;
+  line-height: 1.25;
+  font-weight: 400;
+  margin-bottom: 1.3rem;
+}
+h3 {
+  font-size: 1.6rem;
+  line-height: 1.25;
+  font-weight: 400;
+  margin-bottom: 1.2rem;
+}
+h4 {
+  font-size: 1.45rem;
+  line-height: 1.25;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+h5 {
+  font-size: 1.35rem;
+  line-height: 1.25;
+  font-weight: 300;
+  margin-bottom: .8rem;
+}
+h6 {
+  font-size: 1.30rem;
+  line-height: 1.25;
+  font-weight: 200;
+  margin-bottom: .5rem;
+}
+h1 a, h2 a, h3 a, h4 a {
+  color: inherit;
+  border: 0 !important;
+}
+
+
+
+
+/* Main
+-------------------------------------------------- */
+
+.main { position: relative;  background-color: #ddd;  }
+
+.main p,
+.main figure,
+.main ul,
+.main ol { margin-bottom: 1.5rem; }
+
+.text { 
+  position: relative;
+  margin: .25rem 0 .25rem auto;
+}
+
+/* Text blocks */
+.text ul,
+.text ol { padding-left: 2rem; }
+.main h1 { padding: 1.5rem 0; border-bottom: 2px solid black; }
+.main h2 { margin: 1.5rem 0; }
+.text h1 { border: 0 none; border-bottom: 0 none!important;}
+
+
+/* Project meta
+-------------------------------------------------- */
+.meta {
+  margin-bottom: 1.5em;
+}
+.meta li {
+  list-style: none;
+  margin-right: 2rem;
+  color: black;
+}
+.meta li em {
+  font-weight: 200;
+  color: #000;
+  padding-right: .25rem;
+}
+
+
+/* Project teaser
+-------------------------------------------------- */
+.teaser {
+	position: relative;
+  list-style: none;
+  padding-bottom: 2rem;
+}
+
+.teaser li {  
+	margin-bottom: 1.5rem;
+  list-style: none;
+  float: left;
+  width: 100%;
+  height: auto;
+  margin-right: 3%;
+  overflow: hidden;
+  max-height: 256px;
+  position: relative;
+  z-index: 10;
+  position: relative;
+}
+.teaser li:before {
+  pointer-events: none;
+  content: "";
+  background-image: url(../images/mask.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: cover;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0;bottom:0;right:0;left:0;
+  z-index: 1;
+
+}
+.teaser li:nth-child(3n+3){
+  margin-right: 0!important;
+  float: right;
+} 
+.teaser li a {
+  position: relative;
+  z-index: 10;
+}
+.teaser li a:hover {  
+  background-color: transparent;
+  color:#ddd;
+}
+
+.teaser li a:before {
+  will-change: left, top;
+  content:"Read";
+  color: #ddd;
+  font-size: .5rem;
+  top: 3rem;
+  text-align: center;
+  -webkit-transition: all 400ms cubic-bezier(.69,.2,.48,1.47);
+     -moz-transition: all 400ms cubic-bezier(.69,.2,.48,1.47); 
+       -o-transition: all 400ms cubic-bezier(.69,.2,.48,1.47);
+          transition: all 400ms cubic-bezier(.69,.2,.48,1.47);
+
+}
+.teaser li:hover a:before {
+  -webkit-transition: all 400ms cubic-bezier(.69,.2,.48,1.47);
+     -moz-transition: all 400ms cubic-bezier(.69,.2,.48,1.47); 
+       -o-transition: all 400ms cubic-bezier(.69,.2,.48,1.47);
+          transition: all 400ms cubic-bezier(.69,.2,.48,1.47);
+  position: relative;
+  z-index: 10;
+  left: 0;
+  top: -.2rem;
+  display: block;
+  color: black;
+  font-size: 4.5rem;
+  line-height: 3;
+  font-weight: 300;
+  width: 100%;
+  height: calc(250px - 1rem);
+  text-align: center;
+  border: 3px solid black;
+}
+
+
+
+.text table tr td{ 
+  border-top: 1px solid rgba(0,0,0,.1); 
+}
+.text table tr td:nth-child(3){ 
+  white-space: nowrap;
+  padding: .5rem 0 .5rem .3rem;
+}
+.text table tr td:last-child{ 
+  font-weight: 400;
+  padding: 0 0 0 1rem; 
+}
+
+.text p a,
+.text h6 a{
+  padding:0;
+  border-bottom: 1px solid black;
+}
+
+
+/* Next/Prev nav
+-------------------------------------------------- */
+.nextprev {
+  line-height: 2rem;
+  padding: 1rem 0 1.8rem 0;
+  font-weight: 400;
+  clear: both;
+}
+
+/*try this*/
+.prev{float:left; clear:left;}
+.next{float:right; clear:right;}
+
+.prev,
+.next {
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  
+  -webkit-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+
+  margin-bottom: 1rem;
+}
+.nextprev span {
+  line-height: 1;
+  -webkit-align-self:center;
+  align-self:center;
+}
+
+.nextprev svg{ 
+  width: 50px;
+  height: 50px;
+}
+.next span{
+  margin-left: 1rem;
+}
+.prev span{
+  margin-right: 1rem;
+}
+
+.navi{ stroke-width: 4;  }
+
+
+
+
+
+/* Footer
+-------------------------------------------------- */
+.footer {
+  width: 100%;
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+
+  padding: 0 0 5rem 0;
+  font-size: 1rem;
+  text-align: center;
+  border-top: 2px solid black;
+  background-color: #ddd;
+}
+
+.footer a{
+  padding: 0;
+}
+
+.footer div { 
+  padding: 1rem 0; 
+  -webkit-align-self:center;
+  align-self:center;
+  width: 100%;
+}
+
+.footer img, 
+.footer svg { 
+  max-width: 5rem;
+}
+.sponsor, .powered, .copyright, .share{
+  border-bottom: 2px solid black;
+}
+.share{
+  padding: 1.5rem 0;
+  margin: 0 auto 1.8rem auto;
+  text-align: center;
+}
+.share a {padding: .5rem;}
+.share a:hover { border-bottom: 1px solid black; }
+
+/*sponsor*/
+.sponsor img { max-width: 9rem;}
+.sponsor svg { max-width: 10rem;}
+.sponsor span{ display: block; }
+.sponsor a .words:first-child{
+  font-size: 200%;
+}
+.sponsor:hover {
+  background-color: #d4d4d4;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+}
+
+
+/*powered*/
+.powered{ 
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: auto;
+}
+
+.powered:hover {
+  background-color: #d4d4d4;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+}
+
+#producer-link {
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+#producer-link .left,
+#producer-link .right{
+  -webkit-align-self:center;
+  align-self:center; 
+
+  -webkit-flex-basis: 70%;
+  flex-basis: 70%;
+
+  -webkit-transition: all 400ms cubic-bezier(.69,.2,.48,1.47);
+   -moz-transition: all 400ms cubic-bezier(.69,.2,.48,1.47); 
+     -o-transition: all 400ms cubic-bezier(.69,.2,.48,1.47);
+        transition: all 400ms cubic-bezier(.69,.2,.48,1.47);
+ }
+
+#producer-link .left{  
+  -webkit-box-ordinal-group: 1;
+  -moz-box-ordinal-group: 1;
+  -ms-flex-order: 1; 
+  -webkit-order: 1;
+  order: 1; 
+}
+
+#producer-link .logo { 
+  -webkit-box-ordinal-group: 2;    
+  -moz-box-ordinal-group: 2;      
+  -ms-flex-order: 2;              
+  -webkit-order: 2;               
+  order: 2;                       
+ 
+  -webkit-align-self:center;
+  align-self:center;
+}
+
+#producer-link .right{ 
+  -webkit-box-ordinal-group: 3; 
+  -moz-box-ordinal-group: 3; 
+  -ms-flex-order: 3; 
+  -webkit-order: 3;  
+  order: 3;  
+}
+
+#producer-link:hover .left,
+#producer-link:hover .right{
+  -webkit-flex-basis: 30%;
+  flex-basis: 30%;
+}
+
+/*copyright*/
+.copyright svg{
+  max-width: 2.5rem;
+}
+.copyright a:hover{
+  border-bottom: 1px solid black;
+}
+.copyright .logo{
+  top:0;
+}
+.copyright .words{
+  margin-bottom: 1rem;
+}
+.footer .up a{ 
+  padding : .5rem; 
+  width: 72px;
+  height: 72px;
+}
+.up{
+  margin-top: 0;
+  padding-top: 0;
+}
+.up a{ 
+  line-height: 1.5;
+}
+.up svg{
+  margin-top:0;
+}
+
+
+#random-image { display: none;}
+#random-image-caption { 
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+
+
+/* home
+-------------------------------------------------- */
+.main.home { margin-top: 0; }
+
+.main.home h1 { font-weight:400;}
+
+.home .text  { margin: 0 0 2rem 0; }
+
+
+
+/* Mix 
+-------------------------------------------------- */
+.illu, .copyright .logo { pointer-events: none; }
+
+.projects .text h1:first-child:before { content:"Freezer Magazine ";}
+
+blockquote { 
+  display: block!important;
+  clear: both;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+blockquote p { 
+  font-style: italic;
+  padding-left: 1rem!important; 
+  border-left: 2px solid black;
+  margin-bottom: .4rem;
+  margin-top: .4rem;
+}
+
+
+
+/* media queries - 1st breakpoint
+-------------------------------------------------- */
+@media screen and (min-width: 40rem) {
+
+  body { padding: 3rem; padding-bottom: 0; }
+
+  .main h1,
+  .main .meta,
+  .main .text {
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .meta { /*float: left; display: inline;*/ font-size: 1rem;}
+  .text { padding: 1rem 0 5rem 0; }
+  .text p, .text ul, .text ol { margin-left: 25%!important;  }
+  .home .text p { margin-left: 25%!important; }
+  .text h1, .text h2, .text h3 { 
+  	width: 100%!important; 
+  	clear: both!important; 
+  	display: block;
+  }
+
+  .teaser li { width: 31.25%; }
+
+  br.hideOnLarge { display: none; }
+  
+  .illu img, .illu object, .illu svg { max-width: 75%; }
+
+  .illu {
+    position: relative;
+    display: block;
+    max-width: 40rem;
+  }
+
+  #producer-link {
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    display: flex;  /* NEW, Spec - Opera 12.1, Firefox 20+ */
+    
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    
+    -webkit-justify-content: center;
+    justify-content: center;
+
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  #producer-link .left{ 
+    -webkit-box-ordinal-group: 1; 
+    -moz-box-ordinal-group: 1; 
+    -ms-flex-order: 1; 
+    -webkit-order: 1;  
+    order: 1; 
+  }
+
+  #producer-link .logo { 
+    -webkit-box-ordinal-group: 2;   
+    -moz-box-ordinal-group: 2;     
+    -ms-flex-order: 2;          
+    -webkit-order: 2;           
+    order: 2;
+    max-width: 100px;
+  }
+
+  #producer-link .right{ 
+    -webkit-box-ordinal-group: 3;
+    -moz-box-ordinal-group: 3;
+    -ms-flex-order: 3; 
+    -webkit-order: 3;
+    order: 3;
+    padding-bottom: 0;
+  }
+  
+}
+
+
+
+/* 2nd breakpoints
+-------------------------------------------------- */
+@media screen and (min-width: 76rem) {
+
+  .submenu .brick-front, 
+  .brick-front { border: 3px solid black; }
+  blockquote p { border-left: 3px solid black;}
+  .footer { border-top: 3px solid black;}
+  .sponsor, .powered, .copyright, .share, .main h1 { border-bottom: 3px solid black;}
+  .sponsor:hover, .powered:hover { border-right: 3px solid black; border-left: 3px solid black; }
+  .menu a:hover { border: 3px solid black!important; }
+  .navi { stroke-width: 6;  }
+
+  .footer { width: calc(100% - 50vw); }
+
+  .main, footer { 
+    position: relative;
+    margin-left:50vw;
+  }
+  
+  .meta { width: 100%; padding-bottom: 1rem; }
+
+  .illu { max-width: 100rem; padding-top: 12vh; }
+
+  .illu img, .illu object, .illu svg {
+    position: relative;
+    left: calc(50% - 170px);
+    max-width: 35%; 
+    z-index: 1000;
+  }
+
+  .home .text p { 
+    margin-left: 0!important; 
+    font-size: 110%; 
+  }
+
+  #random-image {
+    display: block;
+    position: fixed;
+    z-index: -1;
+    width: 50%;
+    max-width: 50vw;
+    height: 100%;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    -webkit-background-size: contain!important;
+    -moz-background-size: contain!important;
+    -o-background-size: contain!important;
+    background-size: contain!important;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+  }
+
+  #random-image-caption:before{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    font-size: 1rem; 
+    line-height: 1;
+    color: black;
+  }
+
+
+  #random-image.ya01{ background: #ddd url(../photos/01.jpg) center left no-repeat fixed; }
+  #random-image-caption.ya01:before{ content:"< random photo by: BEPPE DEMONTE | Anywhere!";}
+
+  #random-image.ya02{ background: #ddd url(../photos/02.jpg) center left no-repeat fixed;}
+  #random-image-caption.ya02:before{ content:"< random photo by: ROKMA | NSW, AUSTRALIA";}
+
+  #random-image.ya03{ background: #ddd url(../photos/03.jpg) center left no-repeat fixed;}
+  #random-image-caption.ya03:before{ content:"< random photo by: ROKMA | STREET PARADE | ZURICH, SWITZERLAND"; }
+
+  #random-image.ya04{ background:url(../photos/04.jpg) center left no-repeat fixed; }
+  #random-image-caption.ya04:after{ content:"< random photo by: ROKMA | AFRICA BAMABATA | MILANO";}
+
+  #random-image.ya05{ background:url(../photos/05.jpg) center left no-repeat fixed; }
+  #random-image-caption.ya05:after{ content:"< random photo by: ROKMA | STREET PARADE | ZURICH, SWITZERLAND"; }
+
+  #random-image.ya06{ background:url(../photos/06.jpg) center left no-repeat fixed; }
+  #random-image-caption.ya06:after{ content:"< random photo by: ROKMA | DANIEL CARDONE | ANCONA, ITALY";}
+
+  #random-image.ya07{ background:url(../photos/07.jpg) center left no-repeat fixed; }
+  #random-image-caption.ya07:after{ content:"< random photo by: ROKMA | LOCALS | VARAZZE, ITALY"; }
+
+  #random-image.ya08{ background:url(../photos/08.jpg) center left no-repeat fixed; }
+  #random-image-caption.ya08:after{ content:"< random photo by: ROKMA | BALI, INDONESIA"; }
+
+  #random-image.ya09{ background:url(../photos/09.jpg) center left no-repeat fixed; }
+  #random-image-caption.ya09:after{ content:"< random photo by: ROKMA | NATHAN FLETCHER | ANGLET, FRANCE"; }
+
+  #random-image.ya10{ background:url(../photos/10.jpg) center left no-repeat fixed; }
+  #random-image-caption.ya10:after{ content:"< random photo by: ROKMA | MATTEO VECCHIATO | GRATOSOGLIO, MILANO"; }
+
+  #random-image.ya11{ background:url(../photos/11.jpg) center left no-repeat fixed;  }
+  #random-image-caption.ya11:after{ content:"< random photo by: ROKMA | MILANO"; }
+
+  #random-image.ya12{ background:url(../photos/12.jpg) center left no-repeat fixed; }
+  #random-image-caption.ya12:after{ content:"< random photo by: ROKMA | ALEX VILLARI | BASSANO, ITALY"; }
+
+  #random-image.ya13{ background:url(../photos/13.jpg) center left no-repeat fixed; }
+  #random-image-caption.ya13:after{ content:"< random photo by: ROKMA | VALSENALES, ITALY"; }
+
+  #random-image.ya14{ background:url(../photos/14.jpg) center left no-repeat fixed; }
+  #random-image-caption.ya14:after{ content:"< random photo by: ROKMA | ALEX MARTORIATI | EUR, ROMA"; }
+
+  #random-image.ya15 { background:url(../photos/15.jpg) center left no-repeat fixed; }
+  #random-image-caption.ya15:after{ content:"< random photo by: ROKMA | ULUWATU, INDONESIA"; }
+
+  #random-image.ya16{ background:url(../photos/16.jpg) center left no-repeat fixed; }
+  #random-image-caption.ya16:after{ content:"< random photo by: ROKMA | ETTORE BURDESE | LES MOLIETS, FRANCE"; }
+
+  #random-image.ya17 { background:url(../photos/17.jpg) center left no-repeat fixed; }
+  #random-image-caption.ya17:after{ content:"< random photo by: ROKMA | CHAN NGUYEN | LEONCAVALLO, MILANO"; }
+
+  #random-image.ya18 { background:url(../photos/18.jpg) center left no-repeat fixed; }
+  #random-image-caption.ya18:after{ content:"< random photo by: MARCO BRUZZONE | FINLAND"; }
+
+  #random-image.ya19 { background:url(../photos/19.jpg) center left no-repeat fixed; }
+  #random-image-caption.ya19:after{ content:"< random photo by: ROKMA | ANGLET LA BARRE, FRANCE"; }
+
+
+  #random-image.ya20 { background:url(../photos/20.jpg) center left no-repeat fixed; }
+  #random-image-caption.ya20:after{ content:"< random photo by: MIRAI PULVIRENTI | EUR, ROME";  }
+
+  #random-image.ya21 { background:url(../photos/21.jpg) center left no-repeat fixed; }
+  #random-image-caption.ya21:after{ content:"< random photo by: G.REPETTO | ETTORE BURDESE | VARAZZE, ITALY"; }
+
+
+  #random-image.ya22 { background:url(../photos/22.jpg) center left no-repeat fixed; }
+  #random-image-caption.ya22:after{ content:"< random photo by: G.REPETTO | MATTEO FERRARI | VARAZZE, ITALY"; }
+
+
+  #random-image.ya23 { background:url(../photos/23.jpg) center left no-repeat fixed; }
+  #random-image-caption.ya23:after{ content:"< random photo by: MIRAI PULVIRENTI | JOSEF SOUDANI | ROME"; }
+
+  #random-image.ya24 { background:url(../photos/24.jpg) center left no-repeat fixed; }
+  #random-image-caption.ya24:after{ content:"< random photo by: ROKMA | BELANGAN BALI, INDONESIA"; }
+
+
+  #random-image.ya25 { background:url(../photos/25.jpg) center left no-repeat fixed; }
+  #random-image-caption.ya25:after{ content:"< random photo by: ROKMA | KUTA BEACH BALI, INDONESIA"; }
+
+  #random-image.ya26 { background:url(../photos/26.jpg) center left no-repeat fixed; }
+  #random-image-caption.ya26:after{ content:"< random photo by: ROKMA | ULUWATU, INDONESIA "; }
+
+
+  #random-image.ya27 { background:url(../photos/27.jpg) center left no-repeat fixed; }
+  #random-image-caption.ya27:after{ content:"< random photo by: ROKMA | BALI, INDONESIA"; }
+
+  #random-image.ya28 { background:url(../photos/28.jpg) center left no-repeat fixed; }
+  #random-image-caption.ya28:after{ content:"< random photo by: ROKMA | LA GRAVIERE, FRANCE"; }
+
+  #random-image.ya29 { background:url(../photos/29.jpg) center left no-repeat fixed; }
+  #random-image-caption.ya29:after{ content:"< random photo by: ROKMA | FRANCESCA ZAMBITO & MIKE MCGILL | ROME";  }
+
+  #random-image.ya30 { background:url(../photos/30.jpg) center left no-repeat fixed; }
+  #random-image-caption.ya30:after{ content:"< random photo by: ROKMA | GREAT OCEAN ROAD, AUSTRALIA"; }
+
+
+  #random-image.ya31 { background:url(../photos/31.jpg) center left no-repeat fixed; }
+  #random-image-caption.ya31:after{ content:"< random photo by: ROKMA | YMCA MELBOURNE, AUSTRALIA"; }
+
+ 
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
