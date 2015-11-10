@@ -10,9 +10,9 @@ Author: Giovanni Bruzzichelli
 ----
 Tags: Guide, Italiano
 ----
-Text: 
+Text:
 
-#Donne
+##Donne
 
 Non possiamo essere solo amici? / Non ti lascerò per nulla al mondo toccare alcuna parte del mio corpo, ancora.
 
@@ -56,7 +56,7 @@ Sei un caro ragazzo. / Imbecille.
 Dai, rimaniamo amici! / Hai la macchina e mi farebbe comodo se continuassi ad accompagnarmi.
 
 
-#Uomini
+##Uomini
 
 E’ solo succo d'arancia, provalo / Ancora tre bicchieri e avrò la testa tra le sue gambe.
 

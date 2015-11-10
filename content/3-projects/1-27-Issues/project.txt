@@ -7,7 +7,7 @@ Icon: camera
 ----
 Text: 
 
-#27 
+##27 
 | no. | year  | season            | shout               |
 | :-- | :---- | :---------------- | -------------------:|
 | 01 | 1994 | dicembre | Freezer numero zero |

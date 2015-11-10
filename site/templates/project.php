@@ -1,13 +1,22 @@
 <?php snippet('header') ?>
-  
+
   <header class="header cf" role="banner">
 
     <?php snippet('menu') ?>
 
+
+
+    <!-- <div class="cf">
+      <figure class="illu classic">
+        <?php// include("assets/images/freezer-classic.svg"); ?>
+      </figure>
+    </div> -->
+
+
     <a class="gohome cf" href="<?php echo url() ?>">
-      <?php 
-        // if Icon exists display it (usign string concatenation) 
-        if(!$page->icon()->empty()): 
+      <?php
+        // if Icon exists display it (usign string concatenation)
+        if(!$page->icon()->empty()):
       ?>
 
       <div class="illu <?php echo $page->icon() ?>">
@@ -15,23 +24,23 @@
         <object type="image/svg+xml" data="<?php echo url('assets/images/freezer-'.$page->icon().'.svg') ?>">frz Logo <!-- fallback image in CSS --></object>
 
 
-      </div> 
+      </div>
 
       <?php endif ?>
     </a>
   </header>
 
-  <main class="main project" role="main">  
+  <main class="main project" role="main">
 
-    <h1 itemprop="headline"><?php echo $page->title()->html() ?></h1>
+    <h1 itemprop="headline" class="qr"><?php echo $page->title()->html() ?></h1>
 
     <ul class="meta cf">
-      
+
       <?php // if Year exists display it ?>
       <?php if(!$page->year()->empty()): ?>
       <li><em>Year</em> <?php echo $page->date('Y', 'year') ?></li>
       <?php endif ?>
-      
+
       <?php // if Issue exists display it ?>
       <?php if(!$page->issue()->empty()): ?>
       <li><em>Freezer Magazine</em> <?php echo $page->issue() ?></li>
@@ -45,7 +54,7 @@
       <?php // if Author exists display it ?>
       <?php if(!$page->author()->empty()): ?>
       <li><em>Author</em> <?php echo $page->author() ?></li>
-      <?php endif ?>  
+      <?php endif ?>
 
     </ul>
 
@@ -56,18 +65,18 @@
     </div>
 
     <div class="share">
-      
+
       <a href="https://plus.google.com/share?url=<?php echo rawurlencode ($page->url()); ?>&title=<?php echo rawurlencode($page->title()); ?>" target="blank" title="Share on Google+">Google+</a>
       &nbsp;
       <a href="http://www.facebook.com/sharer.php?u=<?php echo rawurlencode ($page->url()); ?>" target="blank" title="Share on Facebook">Facebook</a>
       &nbsp;
       <a href="https://twitter.com/intent/tweet?source=webclient&text=<?php echo rawurlencode($page->title()); ?>%20<?php echo rawurlencode($page->url()); ?>%20<?php echo ('via @rokmatwit')?>" target="blank" title="Tweet this">Tweet</a>
 
- 
+
 
     </div>
 
-    
+
     <nav class="brick nextprev cf" role="navigation">
 
       <?php if($next = $page->nextVisible()): ?>
@@ -81,7 +90,7 @@
       <?php endif ?>
 
 
-      <?php if($prev = $page->prevVisible()): ?> 
+      <?php if($prev = $page->prevVisible()): ?>
       <?php // cookie bind keyboard via js ?>
       <?php setcookie("navPrev", $prev->url()); ?>
 
