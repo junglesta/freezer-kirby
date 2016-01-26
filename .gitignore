@@ -1,9 +1,9 @@
 .DS_Store
-/site/accounts
-/site/cache
-/assets/avatars
-/thumbs/*
-/_sw/*
+**/site/accounts
+**/site/cache
+**/assets/avatars
+**/thumbs
+**/_sw
 
-/kirby/*
-/panel/*
+**/kirby
+**/panel

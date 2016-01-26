@@ -32,7 +32,10 @@
 
   <main class="main project" role="main">
 
-    <h1 itemprop="headline" class="qr"><?php echo $page->title()->html() ?></h1>
+    <h1 itemprop="headline"><?php echo $page->title()->html() ?></h1>
+    <div class="qr">
+      <img src="https://chart.googleapis.com/chart?cht=qr&chs=120x120&chl=http://freezer.junglestar.org&choe=UTF-8" alt="beep me" />
+    </div>
 
     <ul class="meta cf">
 

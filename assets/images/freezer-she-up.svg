@@ -9,9 +9,9 @@
 		.stroke-black-thin {fill:none;stroke:#000000;stroke-width:0.645;stroke-miterlimit:10;stroke-linecap:round;stroke-linejoin:round;}
 	</style>
 
-	<g class="freezer-she-down">
+	<g class="freezer-she-up">
 
-
+		<circle id="bg" class="gray" cx="50" cy="50" r="49"/>
 
 		<path d="M50,7.75c11.186,0,21.728,4.33,29.684,12.192c7.726,7.635,12.153,17.746,12.529,28.562
 		c-0.221-0.024-0.449-0.037-0.686-0.037c-0.931,0-1.94,0.196-2.845,0.55c-2.473,0.97-3.639,2.814-3.032,4.774

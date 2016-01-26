@@ -348,7 +348,7 @@ h1 a, h2 a, h3 a, h4 a {
   z-index: 10;
   position: relative;
 }
-.teaser li:before {
+/*.teaser li:before {
   pointer-events: none;
   content: "";
   background-image: url(../images/mask.svg);
@@ -362,7 +362,7 @@ h1 a, h2 a, h3 a, h4 a {
   top:0;bottom:0;right:0;left:0;
   z-index: 1;
 
-}
+}*/
 .teaser li:nth-child(3n+3){
   margin-right: 0!important;
   float: right;
@@ -377,6 +377,7 @@ h1 a, h2 a, h3 a, h4 a {
 }
 
 .teaser li a:before {
+  pointer-events: none;
   will-change: left, top;
   content:"Read";
   color: #ddd;
@@ -805,7 +806,7 @@ blockquote p {
     left: calc(50% - 170px);
     max-width: 35%;
     z-index: 1000;
-    /*background: 
+    /*background:
 		<circle id="bg" class="gray" cx="50" cy="50" r="49"/>    */
   }
 
@@ -953,13 +954,18 @@ blockquote p {
 /*LATEST*/
 
 
-
+.qr {
+  float: right;
+  width: 120px;
+  height: 120px;
+}
+/*
 h1.qr:after {
   content: url(https://chart.googleapis.com/chart?cht=qr&chs=120x120&chl=http://freezer.junglestar.org&choe=UTF-8);
   position: absolute;
   right: 0;
   top: 75pt;
-}
+}*/
 
 /*@media print {
   h1:after {
