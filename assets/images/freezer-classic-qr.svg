@@ -1,0 +1,1334 @@
+<svg 
+	xmlns="http://www.w3.org/2000/svg"  
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	version="1.1" 
+	viewBox="0 0 100 100"
+	id="freezer-logo-classic-with-qr">
+
+	<style>
+		<!-- freezer - thin line style -->
+		.white {fill:white;}
+		.black {fill:black;}
+		.gray {fill:#ddd;}
+		.stroke-black {fill:none;stroke:#000000;stroke-width:0.75;stroke-miterlimit:10;stroke-linecap:round;stroke-linejoin:round;}
+		.stroke-black-thin {fill:none;stroke:#000000;stroke-width:0.645;stroke-miterlimit:10;stroke-linecap:round;stroke-linejoin:round;}
+		.hide {display:none;}
+		.show {display:block;}
+	</style>
+
+	
+		<g id="freezer-qr">
+			
+			<circle id="bg-qr" class="gray" cx="50" cy="50" r="49"/>
+			<g id="qr">
+				<g>
+					<rect id="p" x="20.5" y="20.5" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_1_" x="20.5" y="22.569" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_2_" x="20.5" y="24.638" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_3_" x="20.5" y="26.708" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_4_" x="20.5" y="28.776" width="2.069" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_5_" x="20.5" y="30.845" width="2.069" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_6_" x="20.5" y="32.913" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_7_" x="20.5" y="37.051" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_8_" x="20.5" y="39.121" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_9_" x="20.5" y="41.19" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_10_" x="20.5" y="43.259" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_11_" x="20.5" y="45.328" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_12_" x="20.5" y="47.397" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_13_" x="20.5" y="49.466" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_14_" x="20.5" y="66.018" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_15_" x="20.5" y="68.085" width="2.069" height="2.071"/>
+				</g>
+				<g>
+					<rect id="p_16_" x="20.5" y="70.156" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_17_" x="20.5" y="72.224" width="2.069" height="2.07"/>
+				</g>
+				<g>
+					<rect id="p_18_" x="20.5" y="74.294" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_19_" x="20.5" y="76.361" width="2.069" height="2.07"/>
+				</g>
+				<g>
+					<rect id="p_20_" x="20.5" y="78.432" width="2.069" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_21_" x="22.569" y="20.5" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_22_" x="22.569" y="32.913" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_23_" x="22.569" y="41.19" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_24_" x="22.569" y="45.328" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_25_" x="22.569" y="47.397" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_26_" x="22.569" y="49.466" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_27_" x="22.569" y="53.603" width="2.069" height="2.071"/>
+				</g>
+				<g>
+					<rect id="p_28_" x="22.569" y="59.811" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_29_" x="22.569" y="61.88" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_30_" x="22.569" y="66.018" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_31_" x="22.569" y="78.432" width="2.069" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_32_" x="24.638" y="20.5" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_33_" x="24.638" y="24.638" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_34_" x="24.638" y="26.708" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_35_" x="24.638" y="28.776" width="2.069" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_36_" x="24.638" y="32.913" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_37_" x="24.638" y="39.121" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_38_" x="24.638" y="43.259" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_39_" x="24.638" y="45.328" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_40_" x="24.638" y="51.535" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_41_" x="24.638" y="53.603" width="2.069" height="2.071"/>
+				</g>
+				<g>
+					<rect id="p_42_" x="24.638" y="57.741" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_43_" x="24.638" y="59.811" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_44_" x="24.638" y="61.88" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_45_" x="24.638" y="66.018" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_46_" x="24.638" y="70.156" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_47_" x="24.638" y="72.224" width="2.069" height="2.07"/>
+				</g>
+				<g>
+					<rect id="p_48_" x="24.638" y="74.294" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_49_" x="24.638" y="78.432" width="2.069" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_50_" x="26.708" y="20.5" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_51_" x="26.708" y="24.638" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_52_" x="26.708" y="26.708" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_53_" x="26.708" y="28.776" width="2.069" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_54_" x="26.708" y="32.913" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_55_" x="26.708" y="41.19" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_56_" x="26.708" y="49.466" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_57_" x="26.708" y="55.674" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_58_" x="26.708" y="57.741" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_59_" x="26.708" y="66.018" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_60_" x="26.708" y="70.156" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_61_" x="26.708" y="72.224" width="2.069" height="2.07"/>
+				</g>
+				<g>
+					<rect id="p_62_" x="26.708" y="74.294" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_63_" x="26.708" y="78.432" width="2.069" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_64_" x="28.776" y="20.5" width="2.068" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_65_" x="28.776" y="24.638" width="2.068" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_66_" x="28.776" y="26.708" width="2.068" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_67_" x="28.776" y="28.776" width="2.068" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_68_" x="28.776" y="32.913" width="2.068" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_69_" x="28.776" y="39.121" width="2.068" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_70_" x="28.776" y="41.19" width="2.068" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_71_" x="28.776" y="43.259" width="2.068" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_72_" x="28.776" y="45.328" width="2.068" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_73_" x="28.776" y="47.397" width="2.068" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_74_" x="28.776" y="51.535" width="2.068" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_75_" x="28.776" y="53.603" width="2.068" height="2.071"/>
+				</g>
+				<g>
+					<rect id="p_76_" x="28.776" y="55.674" width="2.068" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_77_" x="28.776" y="57.741" width="2.068" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_78_" x="28.776" y="59.811" width="2.068" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_79_" x="28.776" y="61.88" width="2.068" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_80_" x="28.776" y="66.018" width="2.068" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_81_" x="28.776" y="70.156" width="2.068" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_82_" x="28.776" y="72.224" width="2.068" height="2.07"/>
+				</g>
+				<g>
+					<rect id="p_83_" x="28.776" y="74.294" width="2.068" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_84_" x="28.776" y="78.432" width="2.068" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_85_" x="30.845" y="20.5" width="2.068" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_86_" x="30.845" y="32.913" width="2.068" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_87_" x="30.845" y="39.121" width="2.068" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_88_" x="30.845" y="45.328" width="2.068" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_89_" x="30.845" y="47.397" width="2.068" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_90_" x="30.845" y="49.466" width="2.068" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_91_" x="30.845" y="55.674" width="2.068" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_92_" x="30.845" y="59.811" width="2.068" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_93_" x="30.845" y="66.018" width="2.068" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_94_" x="30.845" y="78.432" width="2.068" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_95_" x="32.913" y="20.5" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_96_" x="32.913" y="22.569" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_97_" x="32.913" y="24.638" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_98_" x="32.913" y="26.708" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_99_" x="32.913" y="28.776" width="2.069" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_100_" x="32.913" y="30.845" width="2.069" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_101_" x="32.913" y="32.913" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_102_" x="32.913" y="37.051" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_103_" x="32.913" y="41.19" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_104_" x="32.913" y="45.328" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_105_" x="32.913" y="49.466" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_106_" x="32.913" y="53.603" width="2.069" height="2.071"/>
+				</g>
+				<g>
+					<rect id="p_107_" x="32.913" y="57.741" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_108_" x="32.913" y="61.88" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_109_" x="32.913" y="66.018" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_110_" x="32.913" y="68.085" width="2.069" height="2.071"/>
+				</g>
+				<g>
+					<rect id="p_111_" x="32.913" y="70.156" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_112_" x="32.913" y="72.224" width="2.069" height="2.07"/>
+				</g>
+				<g>
+					<rect id="p_113_" x="32.913" y="74.294" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_114_" x="32.913" y="76.361" width="2.069" height="2.07"/>
+				</g>
+				<g>
+					<rect id="p_115_" x="32.913" y="78.432" width="2.069" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_116_" x="34.982" y="45.328" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_117_" x="34.982" y="47.397" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_118_" x="34.982" y="51.535" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_119_" x="34.982" y="53.603" width="2.069" height="2.071"/>
+				</g>
+				<g>
+					<rect id="p_120_" x="34.982" y="59.811" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_121_" x="34.982" y="61.88" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_122_" x="37.051" y="22.569" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_123_" x="37.051" y="24.638" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_124_" x="37.051" y="26.708" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_125_" x="37.051" y="32.913" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_126_" x="37.051" y="34.982" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_127_" x="37.051" y="37.051" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_128_" x="37.051" y="39.121" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_129_" x="37.051" y="41.19" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_130_" x="37.051" y="43.259" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_131_" x="37.051" y="45.328" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_132_" x="37.051" y="53.603" width="2.069" height="2.071"/>
+				</g>
+				<g>
+					<rect id="p_133_" x="37.051" y="57.741" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_134_" x="37.051" y="59.811" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_135_" x="37.051" y="61.88" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_136_" x="37.051" y="63.947" width="2.069" height="2.07"/>
+				</g>
+				<g>
+					<rect id="p_137_" x="37.051" y="78.432" width="2.069" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_138_" x="39.121" y="20.5" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_139_" x="39.121" y="26.708" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_140_" x="39.121" y="28.776" width="2.069" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_141_" x="39.121" y="30.845" width="2.069" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_142_" x="39.121" y="37.051" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_143_" x="39.121" y="39.121" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_144_" x="39.121" y="43.259" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_145_" x="39.121" y="47.397" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_146_" x="39.121" y="49.466" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_147_" x="39.121" y="61.88" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_148_" x="39.121" y="66.018" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_149_" x="39.121" y="72.224" width="2.069" height="2.07"/>
+				</g>
+				<g>
+					<rect id="p_150_" x="39.121" y="74.294" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_151_" x="41.19" y="20.5" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_152_" x="41.19" y="24.638" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_153_" x="41.19" y="26.708" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_154_" x="41.19" y="32.913" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_155_" x="41.19" y="39.121" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_156_" x="41.19" y="41.19" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_157_" x="41.19" y="45.328" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_158_" x="41.19" y="51.535" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_159_" x="41.19" y="55.674" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_160_" x="41.19" y="59.811" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_161_" x="41.19" y="61.88" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_162_" x="41.19" y="66.018" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_163_" x="41.19" y="68.085" width="2.069" height="2.071"/>
+				</g>
+				<g>
+					<rect id="p_164_" x="41.19" y="70.156" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_165_" x="41.19" y="74.294" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_166_" x="43.259" y="22.569" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_167_" x="43.259" y="24.638" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_168_" x="43.259" y="26.708" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_169_" x="43.259" y="28.776" width="2.069" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_170_" x="43.259" y="34.982" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_171_" x="43.259" y="37.051" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_172_" x="43.259" y="39.121" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_173_" x="43.259" y="41.19" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_174_" x="43.259" y="45.328" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_175_" x="43.259" y="47.397" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_176_" x="43.259" y="57.741" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_177_" x="43.259" y="59.811" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_178_" x="43.259" y="61.88" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_179_" x="43.259" y="66.018" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_180_" x="43.259" y="70.156" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_181_" x="43.259" y="72.224" width="2.069" height="2.07"/>
+				</g>
+				<g>
+					<rect id="p_182_" x="43.259" y="74.294" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_183_" x="43.259" y="76.361" width="2.069" height="2.07"/>
+				</g>
+				<g>
+					<rect id="p_184_" x="45.328" y="24.638" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_185_" x="45.328" y="32.913" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_186_" x="45.328" y="37.051" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_187_" x="45.328" y="39.121" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_188_" x="45.328" y="49.466" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_189_" x="45.328" y="53.603" width="2.069" height="2.071"/>
+				</g>
+				<g>
+					<rect id="p_190_" x="45.328" y="61.88" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_191_" x="45.328" y="63.947" width="2.069" height="2.07"/>
+				</g>
+				<g>
+					<rect id="p_192_" x="45.328" y="66.018" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_193_" x="45.328" y="68.085" width="2.069" height="2.071"/>
+				</g>
+				<g>
+					<rect id="p_194_" x="45.328" y="70.156" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_195_" x="45.328" y="72.224" width="2.069" height="2.07"/>
+				</g>
+				<g>
+					<rect id="p_196_" x="45.328" y="76.361" width="2.069" height="2.07"/>
+				</g>
+				<g>
+					<rect id="p_197_" x="45.328" y="78.432" width="2.069" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_198_" x="47.397" y="20.5" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_199_" x="47.397" y="28.776" width="2.069" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_200_" x="47.397" y="30.845" width="2.069" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_201_" x="47.397" y="34.982" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_202_" x="47.397" y="45.328" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_203_" x="47.397" y="47.397" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_204_" x="47.397" y="49.466" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_205_" x="47.397" y="51.535" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_206_" x="47.397" y="57.741" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_207_" x="47.397" y="63.947" width="2.069" height="2.07"/>
+				</g>
+				<g>
+					<rect id="p_208_" x="47.397" y="66.018" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_209_" x="47.397" y="68.085" width="2.069" height="2.071"/>
+				</g>
+				<g>
+					<rect id="p_210_" x="47.397" y="70.156" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_211_" x="47.397" y="72.224" width="2.069" height="2.07"/>
+				</g>
+				<g>
+					<rect id="p_212_" x="47.397" y="76.361" width="2.069" height="2.07"/>
+				</g>
+				<g>
+					<rect id="p_213_" x="47.397" y="78.432" width="2.069" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_214_" x="49.466" y="20.5" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_215_" x="49.466" y="24.638" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_216_" x="49.466" y="26.708" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_217_" x="49.466" y="28.776" width="2.069" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_218_" x="49.466" y="30.845" width="2.069" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_219_" x="49.466" y="32.913" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_220_" x="49.466" y="37.051" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_221_" x="49.466" y="39.121" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_222_" x="49.466" y="43.259" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_223_" x="49.466" y="45.328" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_224_" x="49.466" y="47.397" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_225_" x="49.466" y="49.466" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_226_" x="49.466" y="51.535" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_227_" x="49.466" y="53.603" width="2.069" height="2.071"/>
+				</g>
+				<g>
+					<rect id="p_228_" x="49.466" y="57.741" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_229_" x="49.466" y="59.811" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_230_" x="49.466" y="66.018" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_231_" x="49.466" y="76.361" width="2.069" height="2.07"/>
+				</g>
+				<g>
+					<rect id="p_232_" x="51.535" y="20.5" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_233_" x="51.535" y="22.569" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_234_" x="51.535" y="26.708" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_235_" x="51.535" y="28.776" width="2.067" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_236_" x="51.535" y="37.051" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_237_" x="51.535" y="43.259" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_238_" x="51.535" y="49.466" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_239_" x="51.535" y="53.603" width="2.067" height="2.071"/>
+				</g>
+				<g>
+					<rect id="p_240_" x="51.535" y="59.811" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_241_" x="51.535" y="66.018" width="2.067" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_242_" x="51.535" y="70.156" width="2.067" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_243_" x="51.535" y="76.361" width="2.067" height="2.07"/>
+				</g>
+				<g>
+					<rect id="p_244_" x="53.603" y="24.638" width="2.071" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_245_" x="53.603" y="30.845" width="2.071" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_246_" x="53.603" y="32.913" width="2.071" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_247_" x="53.603" y="43.259" width="2.071" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_248_" x="53.603" y="49.466" width="2.071" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_249_" x="53.603" y="51.535" width="2.071" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_250_" x="53.603" y="55.674" width="2.071" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_251_" x="53.603" y="57.741" width="2.071" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_252_" x="53.603" y="59.811" width="2.071" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_253_" x="53.603" y="61.88" width="2.071" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_254_" x="53.603" y="63.947" width="2.071" height="2.07"/>
+				</g>
+				<g>
+					<rect id="p_255_" x="53.603" y="66.018" width="2.071" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_256_" x="53.603" y="70.156" width="2.071" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_257_" x="53.603" y="72.224" width="2.071" height="2.07"/>
+				</g>
+				<g>
+					<rect id="p_258_" x="55.674" y="20.5" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_259_" x="55.674" y="26.708" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_260_" x="55.674" y="37.051" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_261_" x="55.674" y="41.19" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_262_" x="55.674" y="47.397" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_263_" x="55.674" y="49.466" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_264_" x="55.674" y="53.603" width="2.067" height="2.071"/>
+				</g>
+				<g>
+					<rect id="p_265_" x="55.674" y="55.674" width="2.067" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_266_" x="55.674" y="61.88" width="2.067" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_267_" x="55.674" y="66.018" width="2.067" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_268_" x="55.674" y="74.294" width="2.067" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_269_" x="57.741" y="24.638" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_270_" x="57.741" y="28.776" width="2.069" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_271_" x="57.741" y="30.845" width="2.069" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_272_" x="57.741" y="32.913" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_273_" x="57.741" y="41.19" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_274_" x="57.741" y="43.259" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_275_" x="57.741" y="45.328" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_276_" x="57.741" y="47.397" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_277_" x="57.741" y="51.535" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_278_" x="57.741" y="55.674" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_279_" x="57.741" y="66.018" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_280_" x="57.741" y="68.085" width="2.069" height="2.071"/>
+				</g>
+				<g>
+					<rect id="p_281_" x="57.741" y="72.224" width="2.069" height="2.07"/>
+				</g>
+				<g>
+					<rect id="p_282_" x="57.741" y="78.432" width="2.069" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_283_" x="59.811" y="24.638" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_284_" x="59.811" y="28.776" width="2.069" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_285_" x="59.811" y="39.121" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_286_" x="59.811" y="47.397" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_287_" x="59.811" y="51.535" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_288_" x="59.811" y="55.674" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_289_" x="59.811" y="57.741" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_290_" x="59.811" y="59.811" width="2.069" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_291_" x="59.811" y="61.88" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_292_" x="59.811" y="66.018" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_293_" x="59.811" y="68.085" width="2.069" height="2.071"/>
+				</g>
+				<g>
+					<rect id="p_294_" x="59.811" y="70.156" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_295_" x="59.811" y="72.224" width="2.069" height="2.07"/>
+				</g>
+				<g>
+					<rect id="p_296_" x="59.811" y="74.294" width="2.069" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_297_" x="59.811" y="76.361" width="2.069" height="2.07"/>
+				</g>
+				<g>
+					<rect id="p_298_" x="59.811" y="78.432" width="2.069" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_299_" x="61.88" y="22.569" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_300_" x="61.88" y="28.776" width="2.067" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_301_" x="61.88" y="30.845" width="2.067" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_302_" x="61.88" y="32.913" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_303_" x="61.88" y="34.982" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_304_" x="61.88" y="43.259" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_305_" x="61.88" y="45.328" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_306_" x="61.88" y="47.397" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_307_" x="61.88" y="49.466" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_308_" x="61.88" y="55.674" width="2.067" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_309_" x="61.88" y="57.741" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_310_" x="61.88" y="59.811" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_311_" x="61.88" y="61.88" width="2.067" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_312_" x="61.88" y="63.947" width="2.067" height="2.07"/>
+				</g>
+				<g>
+					<rect id="p_313_" x="61.88" y="66.018" width="2.067" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_314_" x="61.88" y="68.085" width="2.067" height="2.071"/>
+				</g>
+				<g>
+					<rect id="p_315_" x="61.88" y="70.156" width="2.067" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_316_" x="63.947" y="37.051" width="2.07" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_317_" x="63.947" y="43.259" width="2.07" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_318_" x="63.947" y="47.397" width="2.07" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_319_" x="63.947" y="49.466" width="2.07" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_320_" x="63.947" y="53.603" width="2.07" height="2.071"/>
+				</g>
+				<g>
+					<rect id="p_321_" x="63.947" y="61.88" width="2.07" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_322_" x="63.947" y="70.156" width="2.07" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_323_" x="63.947" y="72.224" width="2.07" height="2.07"/>
+				</g>
+				<g>
+					<rect id="p_324_" x="63.947" y="74.294" width="2.07" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_325_" x="63.947" y="78.432" width="2.07" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_326_" x="66.018" y="20.5" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_327_" x="66.018" y="22.569" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_328_" x="66.018" y="24.638" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_329_" x="66.018" y="26.708" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_330_" x="66.018" y="28.776" width="2.067" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_331_" x="66.018" y="30.845" width="2.067" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_332_" x="66.018" y="32.913" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_333_" x="66.018" y="37.051" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_334_" x="66.018" y="45.328" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_335_" x="66.018" y="47.397" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_336_" x="66.018" y="55.674" width="2.067" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_337_" x="66.018" y="59.811" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_338_" x="66.018" y="61.88" width="2.067" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_339_" x="66.018" y="66.018" width="2.067" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_340_" x="66.018" y="70.156" width="2.067" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_341_" x="66.018" y="74.294" width="2.067" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_342_" x="66.018" y="78.432" width="2.067" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_343_" x="68.085" y="20.5" width="2.071" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_344_" x="68.085" y="32.913" width="2.071" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_345_" x="68.085" y="39.121" width="2.071" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_346_" x="68.085" y="47.397" width="2.071" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_347_" x="68.085" y="49.466" width="2.071" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_348_" x="68.085" y="51.535" width="2.071" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_349_" x="68.085" y="55.674" width="2.071" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_350_" x="68.085" y="59.811" width="2.071" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_351_" x="68.085" y="61.88" width="2.071" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_352_" x="68.085" y="70.156" width="2.071" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_353_" x="68.085" y="74.294" width="2.071" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_354_" x="70.156" y="20.5" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_355_" x="70.156" y="24.638" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_356_" x="70.156" y="26.708" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_357_" x="70.156" y="28.776" width="2.067" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_358_" x="70.156" y="32.913" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_359_" x="70.156" y="39.121" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_360_" x="70.156" y="47.397" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_361_" x="70.156" y="49.466" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_362_" x="70.156" y="51.535" width="2.067" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_363_" x="70.156" y="55.674" width="2.067" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_364_" x="70.156" y="57.741" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_365_" x="70.156" y="59.811" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_366_" x="70.156" y="61.88" width="2.067" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_367_" x="70.156" y="63.947" width="2.067" height="2.07"/>
+				</g>
+				<g>
+					<rect id="p_368_" x="70.156" y="66.018" width="2.067" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_369_" x="70.156" y="68.085" width="2.067" height="2.071"/>
+				</g>
+				<g>
+					<rect id="p_370_" x="70.156" y="70.156" width="2.067" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_371_" x="70.156" y="74.294" width="2.067" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_372_" x="70.156" y="78.432" width="2.067" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_373_" x="72.224" y="20.5" width="2.07" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_374_" x="72.224" y="24.638" width="2.07" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_375_" x="72.224" y="26.708" width="2.07" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_376_" x="72.224" y="28.776" width="2.07" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_377_" x="72.224" y="32.913" width="2.07" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_378_" x="72.224" y="37.051" width="2.07" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_379_" x="72.224" y="55.674" width="2.07" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_380_" x="72.224" y="63.947" width="2.07" height="2.07"/>
+				</g>
+				<g>
+					<rect id="p_381_" x="72.224" y="66.018" width="2.07" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_382_" x="72.224" y="68.085" width="2.07" height="2.071"/>
+				</g>
+				<g>
+					<rect id="p_383_" x="72.224" y="70.156" width="2.07" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_384_" x="72.224" y="72.224" width="2.07" height="2.07"/>
+				</g>
+				<g>
+					<rect id="p_385_" x="72.224" y="76.361" width="2.07" height="2.07"/>
+				</g>
+				<g>
+					<rect id="p_386_" x="72.224" y="78.432" width="2.07" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_387_" x="74.294" y="20.5" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_388_" x="74.294" y="24.638" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_389_" x="74.294" y="26.708" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_390_" x="74.294" y="28.776" width="2.067" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_391_" x="74.294" y="32.913" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_392_" x="74.294" y="37.051" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_393_" x="74.294" y="39.121" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_394_" x="74.294" y="47.397" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_395_" x="74.294" y="49.466" width="2.067" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_396_" x="74.294" y="51.535" width="2.067" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_397_" x="74.294" y="53.603" width="2.067" height="2.071"/>
+				</g>
+				<g>
+					<rect id="p_398_" x="74.294" y="55.674" width="2.067" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_399_" x="74.294" y="61.88" width="2.067" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_400_" x="74.294" y="66.018" width="2.067" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_401_" x="74.294" y="74.294" width="2.067" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_402_" x="74.294" y="76.361" width="2.067" height="2.07"/>
+				</g>
+				<g>
+					<rect id="p_403_" x="74.294" y="78.432" width="2.067" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_404_" x="76.361" y="20.5" width="2.07" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_405_" x="76.361" y="32.913" width="2.07" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_406_" x="76.361" y="37.051" width="2.07" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_407_" x="76.361" y="39.121" width="2.07" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_408_" x="76.361" y="47.397" width="2.07" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_409_" x="76.361" y="55.674" width="2.07" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_410_" x="76.361" y="61.88" width="2.07" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_411_" x="76.361" y="68.085" width="2.07" height="2.071"/>
+				</g>
+				<g>
+					<rect id="p_412_" x="76.361" y="72.224" width="2.07" height="2.07"/>
+				</g>
+				<g>
+					<rect id="p_413_" x="76.361" y="74.294" width="2.07" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_414_" x="78.432" y="20.5" width="2.068" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_415_" x="78.432" y="22.569" width="2.068" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_416_" x="78.432" y="24.638" width="2.068" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_417_" x="78.432" y="26.708" width="2.068" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_418_" x="78.432" y="28.776" width="2.068" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_419_" x="78.432" y="30.845" width="2.068" height="2.068"/>
+				</g>
+				<g>
+					<rect id="p_420_" x="78.432" y="32.913" width="2.068" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_421_" x="78.432" y="45.328" width="2.068" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_422_" x="78.432" y="47.397" width="2.068" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_423_" x="78.432" y="51.535" width="2.068" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_424_" x="78.432" y="55.674" width="2.068" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_425_" x="78.432" y="57.741" width="2.068" height="2.069"/>
+				</g>
+				<g>
+					<rect id="p_426_" x="78.432" y="61.88" width="2.068" height="2.067"/>
+				</g>
+				<g>
+					<rect id="p_427_" x="78.432" y="76.361" width="2.068" height="2.07"/>
+				</g> 
+			</g>
+		</g>
+
+
+		<g id="freezer-classic">
+
+			<circle id="bg-logo" class="gray" cx="50" cy="50" r="49"/>
+	
+			<path 
+				transform="rotate(-30 50 50)" 
+				class="stroke-black" 
+				d="M50,7C26.265,7,7,26.267,7,50.001c0,10.15,3.532,19.477,9.421,26.835V59.15h-0.016
+				c0.007-0.202,0.031-14.277,0.031-14.481c-0.014-5.774,4.075-11.494,10.329-11.494c12.163,0,8.047,13.839,14.504,13.839
+				c5.333,0,11.319-12.515,11.319-12.515v-9.055c0-1.018,0.751-1.832,1.688-1.832h16.656v4.882h9.264
+				c1.685,0,3.085,1.528,3.085,3.359c0,1.832-1.4,3.356-3.085,3.356h-9.264v7.938h9.264c1.687,0,3.087,1.529,3.087,3.359
+				c0,1.833-1.4,3.357-3.087,3.357h-9.264v4.885h-16.66c-0.936,0-1.685-0.815-1.685-1.831v-8.751c0,0-4.999,8.402-11.32,8.343
+				c-11.323-0.1-6.082-13.837-14.503-13.837c-3.254,0-5.332,3.417-5.332,5.995c0,1.542,0.023,12.633,0.003,14.267h33.365
+				c5.312,0,5.995,4.007,5.995,7.492v1.51c0,2.781-0.44,4.775-2.437,5.833c1.195,0.564,2.207,1.756,2.342,4.64v-1.196L73.39,65.523
+				H61.555v-6.589h21.728v6.345l-12.66,11.688h12.854C89.428,69.589,93,60.212,93,50.001C93,26.267,73.735,7,50,7z M54.393,68.557
+				v-0.784c0-1.768-0.516-2.05-2.186-2.05h-8.465v4.884h8.978C53.97,70.606,54.393,70.092,54.393,68.557z M54.164,80.259
+				c0-2.472-0.565-2.866-1.904-2.866h-8.519v6.161h-6.556V65.529l-14.207-0.006v3.543h13.05v6.393H22.978v7.974
+				C30.364,89.411,39.764,93,50,93c10.165,0,19.504-3.541,26.867-9.446H54.164V80.259z"/>
+		</g>
+
+
+</svg>
+
